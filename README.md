@@ -6,4 +6,5 @@
 3) Збільшення кількості даних. Обрізка картинок від непотрібного фону;
 4) Збільшення кількості тренувального набору за рахунок поворотів, відбивання, маштабування, зсувів картинок (data augmentation);
 5) Використання раніше натренованих моделей (перенос навчання), використання "дропауту";
-6) Варіювання learning_rate в оптимізаторі. (Суттєво впливало у випадку Yoga poses); 
+6) Варіювання learning_rate в оптимізаторі. (Суттєво впливало у випадку Yoga poses);
+7) Ensemble, cross validation, augmentation, searched learning rate/batch size, tuned optimizer with weight decay, learning rate schedule with warmup epochs. Pretty much thats it.
